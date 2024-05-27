@@ -11,6 +11,8 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
    <!-- Custom CSS -->
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/response.css">
@@ -20,7 +22,7 @@
 <header class="header_wrapper">
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Sakshi</a>
+        <a class="navbar-brand" href="#">Sakshi Kumari</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
          <i class="fas fa-stream"></i>
         </button>
@@ -52,22 +54,24 @@
 <section id="home" class="banner_wrapper">
    <div class="container">
       <div class="row">
+         <div class="col-lg-5">
+            <img src="./assest/profile.png" width="400px" h="300px" style="border-radius: 100%; padding-top: 50px;" alt="">
+         </div>
          <div class="col-lg-7 banner-content">
             <h2 class="text-uppercase position-relative">Hello</h2>
             <h1 class="tex-uppercase">I am Sakshi Kumari</h1>
             <h5 class="text-uppercase">Frontend Developer</h5>
          <div class="icons">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/sakshi-kumari-007a62192/" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/Sakshikumariii" target="_blank"><i class="fab fa-github"></i></a>
+
          </div>
          <div class="mt-3">
-            <div class="main-btn primary-btn" href="#">Hire Me</div>
-            <a href="" download class="main-btn secondary-btn ms-4" href="#">Resume</a>
+            <a class="main-btn primary-btn" href="#contact">Hire Me</a>
+            <a href="https://drive.google.com/uc?export=download&id=10Kcgl2fcqyrvvJaJSTrboM3wsBo6bO4-" download class="main-btn secondary-btn ms-4">Resume</a>
          </div>
       </div>
-   <div class="col-lg-5">
-      <img src="./assest/profile.png" width="400px" h="300px" style="border-radius: 100%; padding-top: 50px;" alt="">
-   </div>
+   
       </div>
    </div>
 </section>
@@ -83,7 +87,7 @@
 
          <div class="col-lg-8 contentDiv">
             <h1 class="sub-title">About Me</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente impedit voluptatem obcaecati placeat nostrum sunt ipsa necessitatibus consequuntur illum corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, corrupti.</p>
+            <p> I am a passionate and dedicated fresher frontend developer eager to make my mark in the tech industry. With a strong foundation in HTML, CSS, and JavaScript, I am committed to learning and mastering new skills to create engaging and user-friendly web experiences. I thrive in dynamic environments and enjoy collaborating with others to solve problems creatively.</p>
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="education-tab" onclick="showTab('education')" type="button" role="tab" aria-controls="education" aria-selected="true">Education</button>
@@ -99,19 +103,20 @@
             <div class="tab-content">
                 <div class="tab-pane active" id="education" role="tabpanel" aria-labelledby="education-tab">
                   <div class="about__info">
-                     <h5>PERSONAL INFOS:</h5>
-                     <ul >
+                     <h5>Personal Information:</h5>
+                     <ul>
                          <li class="about__info--items">Name: Sakshi Kumari</li>
-                         <li class="about__info--items">Age: 21 Years</li>
+                         <li class="about__info--items">Age: 21 years</li>
                          <li class="about__info--items">Email: sakshismp2003@gmail.com</li>
                          <li class="about__info--items">Languages: Hindi, English</li>
                      </ul>
-                     <h5>Education: </h5>
+                     <h5>Education:</h5>
                      <ul>
-                        <li>12th: 2017-2019 Obc Girls High school,Darbhanga,Bihar</li>
-                        <li>B.tech: 2019-2023(Baba banda Singh Bahadur Engineering college,Punjab)</li>
+                         <li>12th: 2017-2019 - OBC Girls High School, Darbhanga, Bihar</li>
+                         <li>B.Tech: 2019-2023 - Baba Banda Singh Bahadur Engineering College, Punjab</li>
                      </ul>
                  </div>
+                 
                 </div>
                 <div class="tab-pane" id="skills" role="tabpanel" aria-labelledby="skills-tab">
                   <div class="col-lg-12">
@@ -181,8 +186,15 @@
                 <div class="tab-pane" id="experience" role="tabpanel" aria-labelledby="experience-tab">
                   <h5>Experience: </h5>
                   <ul>
-                     <li>5 Month web development Experience in Vaani Live Private Limited,New Delhi</li>
-                     <li>6 Month traing in Mern stack,Mohali</li>
+                     <ul>
+                        <li>5 Months of Web Development at Vaani Live Private Limited, New Delhi:
+                            <p>Gained hands-on experience in web development during a 5-month stint at Vaani Live Private Limited in New Delhi.</p>
+                        </li>
+                        <li>6 Months of MERN Stack Training in Mohali:
+                            <p>Completed a comprehensive 6-month training program specializing in the MERN (MongoDB, Express.js, React.js, Node.js) stack in Mohali.</p>
+                        </li>
+                    </ul>
+                    
                   </ul>
                 </div>
             </div>
@@ -198,95 +210,84 @@
 <!-- Service Section Start -->
 <section class="services" id="services">
    <div class="container py-2">
-      <h1 class="text-center pb-5">Services</h1>
-      <div class="row pb-3">
-         <div class="col-lg-4 mb-3">
-            <div class="card text-center">
-               <div class="card-body">
-                  <div class="circle ">
-                     <span><i class="fas fa-desktop"></i></span>
-                  </div>
-                  <h4 class="font-weight-bold pb-2 text-center">Web design</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestiae ipsum ab doloribus facere sit.</p>
+       <h1 class="text-center pb-5">Services</h1>
+       <div class="row pb-3">
+           <div class="col-lg-4 mb-3" data-aos="flip-down" data-aos-duration="1000">
+               <div class="card text-center">
+                   <div class="card-body">
+                       <div class="circle">
+                           <span><i class="fas fa-desktop"></i></span>
+                       </div>
+                       <h4 class="font-weight-bold pb-2 text-center">Web Design</h4>
+                       <p>Create stunning and user-friendly websites with our expert web design services. We specialize in crafting visually appealing designs tailored to your brand's identity and target audience.</p>
+                   </div>
                </div>
-            </div>
-         </div>
-         <div class="col-lg-4 mb-3">
-            <div class="card text-center">
-               <div class="card-body">
-                  <div class="circle ">
-                     <span><i class="fas fa-mobile"></i></span>
-                  </div>
-                  <h4 class="font-weight-bold pb-2 text-center">Fully Responsive</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestiae ipsum ab doloribus facere sit.</p>
+           </div>
+           <div class="col-lg-4 mb-3" data-aos="flip-down" data-aos-duration="1000">
+               <div class="card text-center">
+                   <div class="card-body">
+                       <div class="circle">
+                           <span><i class="fas fa-mobile"></i></span>
+                       </div>
+                       <h4 class="font-weight-bold pb-2 text-center">Fully Responsive</h4>
+                       <p>Ensure your website looks great and functions seamlessly on all devices with our fully responsive design solutions. From smartphones to tablets to desktops, we've got you covered.</p>
+                   </div>
+               </div> 
+           </div>
+           <div class="col-lg-4 mb-3" data-aos="flip-down" data-aos-duration="1000">
+               <div class="card text-center">
+                   <div class="card-body">
+                       <div class="circle">
+                           <span><i class="fas fa-code"></i></span>
+                       </div>
+                       <h4 class="font-weight-bold pb-2 text-center">Frontend Development</h4>
+                       <p>Elevate your online presence with our frontend development expertise. Our skilled developers utilize cutting-edge technologies to bring your designs to life, delivering engaging and interactive user experiences.</p>
+                   </div>
                </div>
-            </div>
-         </div>
-         <div class="col-lg-4 mb-3">
-            <div class="card text-center">
-               <div class="card-body">
-                  <div class="circle">
-                     <span><i class="fas fa-code"></i></span>
-                  </div>
-                  <h4 class="font-weight-bold pb-2 text-center">Frontend Developer.</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestiae ipsum ab doloribus facere sit.</p>
-               </div>
-            </div>
-         </div>
-      </div>
+           </div>
+       </div>
    </div>
 </section>
+
 <!-- Service Section End -->
 
 <!-- portfolio section start -->
 <section id="portfolio">
    <div class="container">
-      <div class="row">
          <h1 class="text-center pb-3">Portfolio</h1>
-         <div class="col-lg-12">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-               <li class="nav-item">
-                 <a class="nav-link active" id="pills-html-tab" data-toggle="pill" href="#pills-html" role="tab" aria-controls="pills-html" aria-selected="true">Html & css</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" id="pills-javascript-tab" data-toggle="pill" href="#pills-javascript" role="tab" aria-controls="pills-javascript" aria-selected="false">Javascript</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" id="pills-Bootstrap-tab" data-toggle="pill" href="#pills-Bootstrap" role="tab" aria-controls="pills-Bootstrap" aria-selected="false">Bootstrap</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" id="pills-React-tab" data-toggle="pill" href="#pills-React" role="tab" aria-controls="pills-React" aria-selected="false">React</a>
-               </li>
-             </ul>
-             <div class="tab-content" id="pills-tabContent">
-               <div class="tab-pane fade show active" id="pills-html" role="tabpanel" aria-labelledby="pills-html-tab">
-                 <img src="assest/Project-img.webp" alt="Html & CSS Image">
-                 <img src="assest/Project-img.webp" alt="Html & CSS Image">
-                 <img src="assest/Project-img.webp" alt="Html & CSS Image">
-                 <img src="assest/Project-img.webp" alt="Html & CSS Image">
+            <div class="row">
+               <div class="col-lg-4 mb-4 " data-aos="zoom-in">
+                  <a href="https://event-management-dj6aaccth-sakshis-projects-8cf90f76.vercel.app/signup">
+                     <img src="assest/pro-1.png" alt=" Project" class="img-fluid" style="
+                        height: 235px;
+                    ">
+                  </a>
                </div>
-               <div class="tab-pane fade" id="pills-javascript" role="tabpanel" aria-labelledby="pills-javascript-tab">
-                 <img src="assest/Project-img.webp" alt="Javascript Image">
-                 <img src="assest/Project-img.webp" alt="Javascript Image">
-                 <img src="assest/Project-img.webp" alt="Javascript Image">
+               <div class="col-lg-4 mb-4" data-aos="zoom-in">
+                  <a href="https://youtube-five-phi.vercel.app/">
+                     <img src="assest/pro-2.png" alt=" Project" style="
+                     height: 235px;
+                 " class="img-fluid">
+                  </a>
                </div>
-               <div class="tab-pane fade" id="pills-Bootstrap" role="tabpanel" aria-labelledby="pills-Bootstrap-tab">
-                 <img src="assest/Project-img.webp" alt="Bootstrap Image">
-                 <img src="assest/Project-img.webp" alt="Bootstrap Image">
-                 <img src="assest/Project-img.webp" alt="Bootstrap Image">
-                 <img src="assest/Project-img.webp" alt="Bootstrap Image">
+               <div class="col-lg-4 mb-4" data-aos="zoom-in">
+                  <a href="https://sakshikumariii.github.io/Tour/">
+                     <img src="assest/pro-3.png" alt=" Project" style="
+                     height: 235px;
+                 " class="img-fluid">
+                  </a>
                </div>
-               <div class="tab-pane fade" id="pills-React" role="tabpanel" aria-labelledby="pills-React-tab">
-                 <img src="assest/Project-img.webp" alt="React Image">
-                 <img src="assest/Project-img.webp" alt="React Image">
-                 <img src="assest/Project-img.webp" alt="React Image">
+               <div class="col-lg-4 mb-4" data-aos="zoom-in">
+                  <a href="https://sakshikumariii.github.io/portfolio/">
+                     <img src="assest/pro-4.png" alt="" style="
+                     height: 235px;
+                 " Project" class="img-fluid">
+                  </a>
                </div>
-             </div>
-         </div>
-      </div>
-    
+            </div> 
    </div>
 </section>
+
 
 <!-- portfolio section end -->
 
@@ -295,37 +296,36 @@
 <!-- Contact section start -->
 <section id="contact">
    <div class="container">
-      <div class="row">
-         <div class="col-lg-4 ">
-            <h2 class="text-left sub-title pb-3">Contact Me</h2>
-            <p ><i class="fas fa-paper-plane fs-5" style="margin-right: 10px;"></i>SakshiSmp2003@gmail.com</p>
-            <p><i class="fas fa-phone-square-alt pb-1 fs-5" style="margin-right:10px"></i>6204277012</p>
-            <div class="icons">
-               <a href="#"><i class="fab fa-github"></i></a>
-               <a href="#"><i class="fab fa-linkedin"></i></a>
-               <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-            <a href="css/profile.avif" class="main-btn primary-btn mt-3" download>Download CV</a>
-         </div>
-         <div class="col-lg-8">
-            <form name="submit-to-google-sheet">
-               <label for="name" class="pb-2 pt-2">Name</label>
-               <input type="text" name="Name" placeholder="Enter Your Name" class="form-control" required/>
-               <label for="email" class="pb-2 pt-2">Email</label>
-               <input type="email" class="form-control" name="Email" placeholder="Enter your Email" required/>
-               <label for="message" class="pb-2 pt-2">Message</label>
-               <textarea name="Message" rows="6" placeholder="Message" class="form-control" ></textarea>
-               <button type="submit" class="main-btn primary-btn mt-3">Submit</button>
-               <span id="msg"></span>
-            </form>
-
-         </div>
-      </div>
+       <div class="row">
+           <div class="col-lg-4">
+               <h2 class="text-left sub-title pb-3">Contact Me</h2>
+               <p><i class="fas fa-paper-plane fs-5" style="margin-right: 10px;"></i>SakshiSmp2003@gmail.com</p>
+               <p><i class="fas fa-phone-square-alt pb-1 fs-5" style="margin-right:10px"></i>6204277012</p>
+               <div class="icons">
+                   <a href="https://www.linkedin.com/in/sakshi-kumari-007a62192/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                   <a href="https://github.com/Sakshikumariii" target="_blank"><i class="fab fa-github"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+               </div>
+               <a href="https://drive.google.com/uc?export=download&id=10Kcgl2fcqyrvvJaJSTrboM3wsBo6bO4-" class="main-btn primary-btn mt-3" download>Download CV</a>
+           </div>
+           <div class="col-lg-8">
+               <form name="submit-to-google-sheet" onsubmit="return validateForm()">
+                   <label for="name" class="pb-2 pt-2">Name</label>
+                   <input type="text" name="Name" placeholder="Enter Your Name" class="form-control" required/>
+                   <label for="email" class="pb-2 pt-2">Email</label>
+                   <input type="email" class="form-control" name="Email" id="email" placeholder="Enter your Email" required/>
+                   <span id="emailError" style="color: red; display: none;">Please enter a valid email address</span>
+                   <label for="message" class="pb-2 pt-2">Message</label>
+                   <textarea name="Message" rows="6" placeholder="Message" class="form-control"></textarea>
+                   <button type="submit" class="main-btn primary-btn mt-3">Submit</button>
+                   <span id="msg"></span>
+               </form>
+           </div>
+       </div>
    </div>
 </section>
 
-
-<!-- contact section start -->
+<!-- contact section end -->
 
 <!-- Footer section start -->
 <footer class="mt-4">
@@ -333,7 +333,7 @@
 </footer>
 <!-- Footer section end -->
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
 <!-- Bootstrap & Popper JS CDN -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
